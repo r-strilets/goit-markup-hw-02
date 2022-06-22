@@ -46,7 +46,7 @@ body{
 .contacts .link{
     color: var(--secondary-text-color);
 }
-.current{
+.nav-menu .current{
     color: #2196F3;
 }
 /*********************** Main-Studio ********************** */
