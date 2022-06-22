@@ -1,0 +1,207 @@
+:root{
+    --primary-text-color:#212121;
+    --secondary-text-color:#757575;
+    --background-main-color:#fff;
+    --accent-background-color:#2196F3;
+}
+
+body{    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background-color: var(--background-main-color);
+}
+/**************** Header ***************/
+
+.link {
+    text-decoration: none;
+}
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #000000;
+}
+.logo span{
+    color: var(--accent-background-color);
+}
+.nav-menu,
+.contacts {
+    letter-spacing: 0.02em;
+    list-style: none;
+}
+.nav-menu .link{
+    color: inherit;
+}
+.nav-menu .link:hover,
+.nav-menu .link:focus,
+.contacts .link:hover,
+.contacts .link:focus{
+    color: var(--accent-background-color);
+}
+.contacts .link{
+    color: var(--secondary-text-color);
+}
+/*********************** Main-Studio ********************** */
+
+/* **** Effective-solutions **** */
+.effective-solutions{
+    background-color: #2F303A;
+    text-align: center;
+}
+.effective-solutions .title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.btn{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+    background-color: var(--accent-background-color);
+
+    cursor: pointer;
+}
+
+/********** our-peculiarities *********/
+.our-peculiarities .title{
+    visibility: hidden;
+}
+.peculiariti{
+    list-style: none;
+}
+.peculiariti-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14px;
+    text-transform: uppercase;
+}
+.peculiariti-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--secondary-text-color);
+}
+/* ******** our-works ******** */
+.our-works .title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17px;
+    text-align: center;
+}
+.our-works-example{
+    list-style: none;
+}
+/* ********* our-team ******** */
+.our-team{
+    background-color: #f5f4fa;
+}
+.our-team .title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+
+}
+.team-memders{
+    list-style: none;
+    text-align: center;
+}
+.team-member-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.team-member-profession{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--secondary-text-color);
+}
+/* *****************The end Main-studio ************ */
+
+/* ***************** Main portfolio ******************** */
+.portfolio-header{
+    border-bottom: 1px solid #ECECEC;
+}
+.potfolio-title{
+    visibility: hidden;
+}
+.filter-buttons{
+    list-style: none;
+}
+.filter-buttons [type="button"]{
+    height: 38px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: none;
+
+    cursor: pointer;
+}
+.filter-buttons [type="button"]:hover,
+.filter-buttons [type="button"]:focus{
+    color: #fff;
+    background-color: var(--accent-background-color);
+   
+}
+.portfolio-examples{
+    list-style: none;
+}
+.portfolio-examples-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+    color: var(--primary-text-color);
+}
+.portfolio-examples-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+     
+    color: var(--secondary-text-color);
+}
+/* ***************** The end Main-portfolio ************ */
+
+/* ********************** Footer ******************** */
+.footer{
+    color:#fff;
+    background-color:#2F303A;
+}
+.footer .logo,
+.footer .link {
+    color: inherit;
+}
+.footer-contacts{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    list-style: none;
+}
+
+.footer-contacts .footer-mail,
+.footer-contacts .footer-phone{
+    color:rgba(255, 255, 255, 0.6);
+}
