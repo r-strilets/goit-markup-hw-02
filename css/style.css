@@ -46,6 +46,9 @@ body{
 .contacts .link{
     color: var(--secondary-text-color);
 }
+.current{
+    color: #2196F3;
+}
 /*********************** Main-Studio ********************** */
 
 /* **** Effective-solutions **** */
